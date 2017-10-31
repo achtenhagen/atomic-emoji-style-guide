@@ -45,7 +45,7 @@ Combining atomic commits with emoji prefixing to create more meaningful commit m
 
 `[ Title ]` is a brief but descriptive title written in the imperative present tense. The `[ Title ]` must **not** end with a period as it is not a sentence, but a command. Each commit directs the repository to perform an action.
 
-`[ Description ]` is optional text following the `[ Title ]`, which adds additional information about the changes the commit is introducing. It is usually only included for critical or complex code, such as security patches.
+`[ Description ]` is optional text following the `[ Title ]`, which adds additional information about the changes the commit is introducing. It should only be included when the `[ Title ]` cannot fully describe the intent of the commit. The `[ Description ]` is typically included for critical or complex code, such as security patches.
 
 The `[ Description ]` must begin with a new line to separate itself from the `[ Title ]`. This text should be grouped into small paragraphs, which are also separated by new lines. For improved context, links to external content or references are also encouraged to be included in the `[ Description ]`.
 
