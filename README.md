@@ -1,7 +1,7 @@
 
 # Atomic Emoji Style Guide
 
-**Version 1.0 - October, 2017**
+**Version 1.1 - December, 2017**
 
 Combining atomic commits with emoji prefixing to create more meaningful commit messages.
 
@@ -27,10 +27,11 @@ Combining atomic commits with emoji prefixing to create more meaningful commit m
 |:-----:| ----------- |
 |  🐛   | The commit introduces a bug fix, which ideally references the commit where the bug was introduced. |
 |  🔨   | The commit refactors existing code, without changing its functionality. |
-|  💅   | The commit introduces a style change, which must not affect the behavior of any existing code. |
+|  💅   | The commit introduces a new style or style change, which must not affect the logic of any existing code. |
 |  ⚠️   | The commit introduces a breaking feature. |
-|  🆕   | The commit introduces a non-breaking feature. |
+|  🆕,👋   | The commit introduces a non-breaking feature. |
 |  🔀   | The commit merges two branches. |
+| 🔀 ✅ | The commit resolves a merge conflict |
 |  ⏪   | The commit reverts an existing change. |
 |  ↗️   | The commit improves an existing feature or otherwise existing code. |
 |  ♻️   | The commit removes unneeded or dead code. |
@@ -39,8 +40,9 @@ Combining atomic commits with emoji prefixing to create more meaningful commit m
 |  🌐   | The commit introduces, modifies or removes localization such as translation files. |
 |  📝   | The commit introduces documentation for code, instructions to compile, install or run code inside of the current repository. It may also be used for adding, changing or removing Markdown documents. |
 |  ✏️   | The commit resolves a spelling mistake, such as a typo or grammatical error (within the changes of the commit, not the message itself). |
-|  🚚   | The commit manages dependencies (adding, changing or removing). |
-|  📦   | The commit creates a version tagged release. |
+|  🚚   | The commit manages dependencies such as package.json files (adding, changing or removing). |
+|  🚀   | The commit creates a new deployment. |
+|  📦   | The commit version tags a deployment.|
 |  🎉   | The initial commit. |
 
 `[ Title ]` is a brief but descriptive title written in the imperative present tense. The `[ Title ]` must **not** end with a period as it is not a sentence, but a command. Each commit directs the repository to perform an action.
