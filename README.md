@@ -1,7 +1,7 @@
 
 # Atomic Emoji Style Guide
 
-**Version 1.2 - December, 2017**
+**Version 1.2.1 - December, 2017**
 
 Combining atomic commits with emoji prefixing to create more meaningful commit messages.
 
@@ -32,7 +32,7 @@ Combining atomic commits with emoji prefixing to create more meaningful commit m
 |  ⚠️   | The commit introduces a breaking feature. |
 |  🆕,👋   | The commit introduces a non-breaking feature. |
 |  🔀   | The commit merges two branches. |
-| 🔀 ✅ | The commit resolves a merge conflict |
+| 🔀 ✅ | The commit resolves a merge conflict. |
 |  ⏪   | The commit reverts an existing change. |
 |  ↗️   | The commit improves an existing feature or otherwise existing code. |
 |  ♻️   | The commit removes unneeded or dead code. |
