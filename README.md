@@ -1,7 +1,7 @@
 
 # Atomic Emoji Style Guide
 
-**Version 1.1 - December, 2017**
+**Version 1.2 - December, 2017**
 
 Combining atomic commits with emoji prefixing to create more meaningful commit messages.
 
@@ -26,6 +26,7 @@ Combining atomic commits with emoji prefixing to create more meaningful commit m
 | Emoji | Description |
 |:-----:| ----------- |
 |  🐛   | The commit introduces a bug fix, which ideally references the commit where the bug was introduced. |
+|  🚑   | The commit introduces an emergency bug fix. |
 |  🔨   | The commit refactors existing code, without changing its functionality. |
 |  💅   | The commit introduces a new style or style change, which must not affect the logic of any existing code. |
 |  ⚠️   | The commit introduces a breaking feature. |
